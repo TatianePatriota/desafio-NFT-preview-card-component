@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 100px 300px 100px 300px;
+    display: inline-block;
+}
+
+.img-principal {
+    border-radius: 30px;
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.text-1 {
+    color: hsl(215, 51%, 70%);
+    text-align: center;
+}
+
+.text-2 {
+    color: hsl(178, 100%, 50%);
+    background-image: url(./images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+}
+
+.text-3 {
+    color: hsl(215, 51%, 70%);
+    background-image: url(./images/icon-clock.svg);
+    background-repeat: no-repeat;
+}
+
+.linha {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.text-4 {
+    color: hsl(215, 51%, 70%);
+    background-image: url(./images/image-avatar.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-position: 100px;
+   
+    
+}
