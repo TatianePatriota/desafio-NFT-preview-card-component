@@ -1,59 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     background-color:hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
 }
+ main{
+     display: flex;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     padding: 16px;
+     font-size: 18px;
+ }
+
 
 .card {
     color: hsl(0, 0%, 100%);
     background-color: hsl(216, 50%, 16%);
-    padding: 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    margin: 100px 300px 100px 300px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.view {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
 }
 
 .img-principal {
-    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;     
 }
 
-.titulo {
+.img-principal:hover {
+    opacity: 1;
+}
+
+h1 {
     color: hsl(0, 0%, 100%);
-    text-align: center;
 }
 
 .text-1 {
-    color: hsl(215, 51%, 70%);
-    text-align: center;
+    color: hsl(215, 51%, 70%); 
 }
-
+ 
 .text-2 {
-    color: hsl(178, 100%, 50%);
-    background-image: url(./images/icon-ethereum.svg);
-    background-repeat: no-repeat;
+    color: hsl(178, 100%, 50%);   
+
+    
 }
 
 .text-3 {
-    color: hsl(215, 51%, 70%);
-    background-image: url(./images/icon-clock.svg);
-    background-repeat: no-repeat;
+    color: hsl(215, 51%, 70%); 
 }
 
-.linha {
-    border: 1px solid hsl(215, 32%, 27%);
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
 }
+
 
 .text-4 {
     color: hsl(215, 51%, 70%);
-    background-image: url(./images/image-avatar.png);
-    background-repeat:no-repeat;
-    background-size: contain;
-    text-align: center;
-    background-position: 100px;
-   
-    
 }
+
+.icone-3 {
+    width: 32px;
+    height: 32px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.rodape a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
+}
+

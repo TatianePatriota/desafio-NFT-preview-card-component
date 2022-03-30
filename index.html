@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Mentor - NFT preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div class="card">
-        <img src="./images/image-equilibrium.jpg" alt=""  class="img-principal">
-        <h1 class="titulo">Equilibrium #3429</h1>
+    <main class="card">
+        <img src="./images/image-equilibrium.jpg" alt="Foto de destque"  class="img-principal">
+        <img src="./images/icon-view.svg" alt="Olho de Visualização"class="view">
+        <h1>Equilibrium #3429</h1>
         <p class="text-1">Our Equilibrium collection promotes balance and calm.</p>
-        <p class="text-2"> 0.041ETH</p>
-        <p class="text-3">3 days left</p>
-        <p class="linha"></p>
-        <p class="text-4">Creation of Jules Wyvern</p>
-    </div>
+        <div class="container">
+            <img src="./images/icon-ethereum.svg" alt="ícone losango">
+            <p class="text-2">0.041ETH</p>
+            <img src="./images/icon-clock.svg" alt="ícone relógio">
+            <p class="text-3">3 days left</p>
+        </div>
+            <div class="rodape">
+                <img src="./images/image-avatar.png" alt="avatar" class="icone-3">
+                <p class="text-4">Creation of <a href="#">Jules Wyvern</a></p>
+            </div>
+        </main>
 </body>
 </html>
